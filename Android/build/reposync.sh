@@ -6,7 +6,7 @@ if grep -wFo https://android.googlesource.com/platform/manifest/ repo_url*; then
 # TODO: Add more Options
 else
     echo """
-    usage: repo sync url branch
+    usage: bash reposync.sh url branch
     """
 fi
 rm repo_url
